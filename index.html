@@ -13,7 +13,7 @@
     })(window, document, "clarity", "script", "w2ojyly98y");
 </script>
 
-  <title>멜라 컷 — 사전 체험단 모집 | 수면 + 체지방 + 붓기 나이트 케어</title>
+  <title>멜라 컷 — 사전 체험단 모집 | 수면 + 체지방 + 포만감 나이트 케어</title>
 
   <link rel="preload" as="style" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
@@ -134,7 +134,6 @@
     .fntext{font-size:11px;font-weight:600;color:var(--t2)}
     .review-cards{display:flex;flex-direction:column;gap:12px}
 
-    /* 리뷰 카드: 텍스트 좌, 정사각 이미지 우 */
     .rc{
       background:#fff;border:1px solid var(--border);border-radius:var(--rmd);
       display:flex;flex-direction:row;overflow:hidden;
@@ -168,46 +167,26 @@
     .point-body{font-size:15px;line-height:1.85;color:var(--t2)}
     .point-body p+p{margin-top:12px}
 
-    /* ingredient group wrapper */
     .ingr-group{margin-top:22px}
     .igl{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:4px 12px;border-radius:var(--rfull);margin-bottom:12px}
     .igl.sleep{background:var(--lavender);color:var(--lav-d)}
     .igl.slim{background:var(--peach);color:var(--warn)}
-    .igl.edema{background:#D6EDD0;color:var(--trust)}
+    .igl.satiety{background:#D6EDD0;color:var(--trust)}
     .igl.cortisol{background:#E8E4F5;color:var(--lav-d)}
 
-    /* ── 대형 성분 카드 (Potencia 스타일) ── */
     .ig-stack{display:flex;flex-direction:column;gap:12px}
-    .ic-full{
-      background:#fff;border:1px solid var(--border);border-radius:var(--rlg);overflow:hidden;
-    }
-    .ic-full-top{
-      height:220px;overflow:hidden;
-    }
-    .ic-full-top img{
-      width:100%;height:100%;
-      object-fit:cover;
-      display:block;
-    }
-    .ic-full-body{
-      padding:20px 22px 24px;
-      border-top:1px solid var(--border);
-    }
-    .ic-full-name{
-      font-size:17px;font-weight:800;color:var(--t1);
-      line-height:1.35;margin-bottom:10px;letter-spacing:-.01em;
-    }
-    .ic-full-desc{
-      font-size:14px;color:var(--t2);line-height:1.8;
-    }
+    .ic-full{background:#fff;border:1px solid var(--border);border-radius:var(--rlg);overflow:hidden}
+    .ic-full-top{height:220px;overflow:hidden}
+    .ic-full-top img{width:100%;height:100%;object-fit:cover;display:block}
+    .ic-full-body{padding:20px 22px 24px;border-top:1px solid var(--border)}
+    .ic-full-name{font-size:17px;font-weight:800;color:var(--t1);line-height:1.35;margin-bottom:10px;letter-spacing:-.01em}
+    .ic-full-desc{font-size:14px;color:var(--t2);line-height:1.8}
 
-    /* ── 2열 소형 카드 (코르티솔·붓기 소재) ── */
     .ig-grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
     .ic-v{background:#fff;border:1px solid var(--border);border-radius:var(--rmd);overflow:hidden}
     .ic-v > img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block}
     .ic-v > .ic-body{padding:12px}
 
-    /* 공통 카드 텍스트 */
     .ic-body .ic-name{font-size:13px;font-weight:700;color:var(--t1);margin-bottom:5px;line-height:1.4}
     .ic-body .ic-desc{font-size:12px;color:var(--t2);line-height:1.65;margin-top:4px}
     .ic-body .ic-role{font-size:11px;color:var(--t2);line-height:1.45}
@@ -220,23 +199,19 @@
     .study-card-label{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--cta);margin-bottom:10px}
     .study-card-text{font-size:13px;color:var(--t2);line-height:1.85}
 
-    /* callout box */
     .callout{margin-top:20px;padding:18px 20px;background:var(--surface);border-radius:var(--rlg);border:1px solid var(--border)}
     .callout-label{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--cta);margin-bottom:8px}
     .callout p{font-size:14px;line-height:1.8;color:var(--t2)}
     .callout strong{color:var(--t1);font-weight:700}
 
-    /* point 03 image — 1:1 크게 */
     .point-img{width:100%;border-radius:var(--rxl);overflow:hidden;margin:24px 0;border:1px solid var(--border)}
     .point-img img{width:100%;aspect-ratio:1/1;object-fit:cover;object-position:center;display:block}
 
-    /* ── Point 03 텍스트 카드 (이미지 없는) ── */
     .text-grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
     .tc{background:var(--surface);border:1px solid var(--border);border-radius:var(--rmd);padding:16px 14px}
     .tc-name{font-size:13px;font-weight:700;color:var(--t1);margin-bottom:6px}
     .tc-desc{font-size:12px;color:var(--t2);line-height:1.65}
 
-    /* divider band */
     .mid-cta{padding:36px var(--ph);background:var(--surface)}
     .mid-cta-label{font-size:13px;color:var(--t2);line-height:1.7;margin-bottom:14px;text-align:center}
 
@@ -328,7 +303,7 @@
 
   <div class="hero-img r">
     <img src="images/Gemini_Generated_Image_far3mqfar3mqfar3 1.png"
-      alt="멜라 컷 — 수면 체지방 붓기 나이트 케어 스틱" loading="eager" />
+      alt="멜라 컷 — 수면 체지방 포만감 나이트 케어 스틱" loading="eager" />
   </div>
 
   <div class="hero-content">
@@ -337,7 +312,7 @@
 
     <ul class="hero-bullets r d1">
       <li>편안한 밤을 만들어주는 <strong>식물성 멜라토닌 2mg</strong></li>
-      <li>자는동안 <strong>체지방·붓기 관리</strong> 배합</li>
+      <li>자는동안 <strong>체지방·포만감 관리</strong> 배합</li>
       <li>매일 먹고 싶은 <strong>상큼달달 피치 맛</strong></li>
     </ul>
 
@@ -445,13 +420,13 @@
       <span class="rcheck" aria-hidden="true">
         <svg viewBox="0 0 10 10" fill="none"><path d="M2 5L4.2 7.2L8 3" stroke="#2E2A6E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </span>
-      <span class="rtext"><strong>다이어트로 예민해져</strong> 잠이 안 오는 분</span>
+      <span class="rtext"><strong>야식 충동과 야간 허기</strong>로 다이어트가 힘드신 분</span>
     </li>
     <li>
       <span class="rcheck" aria-hidden="true">
         <svg viewBox="0 0 10 10" fill="none"><path d="M2 5L4.2 7.2L8 3" stroke="#2E2A6E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </span>
-      <span class="rtext">바쁜 일상 속, 자는 동안 <strong>간편하게 체지방 관리</strong>가 필요하신 분</span>
+      <span class="rtext">바쁜 일상 속, 자는 동안 <strong>간편하게 체지방·포만감 관리</strong>가 필요하신 분</span>
     </li>
   </ul>
 
@@ -571,7 +546,7 @@
     </div>
   </div>
 
-  <!-- 잔티젠 임상 연구 데이터 — 붓기 케어 위로 이동 -->
+  <!-- 잔티젠 임상 연구 데이터 -->
   <div class="study-card r d3" style="margin-top:20px">
     <div class="study-card-body">
       <div class="study-card-label">Clinical Evidence</div>
@@ -582,35 +557,35 @@
     </div>
   </div>
 
-  <!-- 붓기 케어: 옥수수수염 + 호박 — 2열 소형 카드 -->
+  <!-- 포만감 케어: 글루코만난 + 차전자피 — 2열 소형 카드 -->
   <div class="ingr-group r d4" style="margin-top:20px">
-    <span class="igl edema">붓기 케어</span>
+    <span class="igl satiety">포만감 케어</span>
     <div class="ig-grid2">
       <div class="ic-v">
-        <img src="images/oksu.jpg" alt="옥수수수염 추출물" loading="lazy" />
+        <img src="images/oksu.jpg" alt="글루코만난" loading="lazy" />
         <div class="ic-body">
-          <div class="ic-name">옥수수수염 추출물</div>
-          <p class="ic-desc">이뇨 작용으로 자는 동안 정체된 순환을 원활하게 하여 아침 부종을 완화합니다.</p>
+          <div class="ic-name">글루코만난</div>
+          <p class="ic-desc">높은 점성의 수용성 식이섬유로 위 안에 오래 머물며 야간 공복감과 허기를 효과적으로 억제합니다.</p>
         </div>
       </div>
       <div class="ic-v">
-        <img src="images/hobak.jpg" alt="호박 추출물" loading="lazy" />
+        <img src="images/hobak.jpg" alt="차전자피" loading="lazy" />
         <div class="ic-body">
-          <div class="ic-name">호박 추출물</div>
-          <p class="ic-desc">수분 순환을 개선하고 부기를 잡아 다음 날 매끈한 컨디션을 완성합니다.</p>
+          <div class="ic-name">차전자피</div>
+          <p class="ic-desc">식욕 억제를 돕는 수용성 섬유소로 야식 충동을 줄이고 안정적인 포만감을 유지해 줍니다.</p>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- 붓기 케어 임상 연구 데이터 -->
+  <!-- 포만감 케어 임상 연구 데이터 -->
   <div class="study-card r d4" style="margin-top:20px">
     <div class="study-card-body">
       <div class="study-card-label">Clinical Evidence</div>
-      <p class="study-card-text">옥수수수염과 호박 종자 추출물은 전임상 연구를 통해 염증성 부종 억제 및 항염 효과가 확인된 성분입니다. 특히 옥수수수염은 염증세포의 혈관 부착 인자인 CD162 발현을 조절하여 부종 완화 기전을 보였으며, 호박 종자는 용량 의존적인 부종 감소 경향을 입증하여 체내 붓기 관리의 잠재적 소재로 보고되었습니다.</p>
+      <p class="study-card-text">인체 시험 결과, 글루코만난 겔은 높은 점성으로 위 내에 오래 머물며 에너지 섭취를 23~47% 감소시키는 것으로 나타났습니다. 특히 차전자피 6.8g 섭취 시 입증된 식욕 억제 효능이 야간의 허기 상승을 막아주어, 밤에 폭식을 막는 안정적인 포만감 케어 시스템을 완성합니다.</p>
     </div>
     <div class="study-card-img">
-      <img src="images/fsbh-2-e9-g003-m.jpg" alt="붓기 케어 임상 연구 데이터" loading="lazy" />
+      <img src="images/index 복사본.jpg" alt="글루코만난·차전자피 포만감 케어 임상 연구 데이터" loading="lazy" />
     </div>
   </div>
 
@@ -629,7 +604,7 @@
         <img src="images/mag.jpg" alt="마그네슘 글리시네이트" loading="lazy" />
         <div class="ic-body">
           <div class="ic-name">마그네슘 글리시네이트 200mg</div>
-          <p class="ic-desc">수면 중 인슐린 기능을 지원하고, 야간 지방 대사와 부종 관리에 도움을 줍니다.</p>
+          <p class="ic-desc">수면 중 인슐린 기능을 지원하고, 야간 지방 대사와 혈당 안정에 도움을 줍니다.</p>
         </div>
       </div>
     </div>
@@ -638,9 +613,9 @@
   <div class="callout r d5">
     <div class="callout-label">NIGHTLY MATRIX™</div>
     <p>
-      잔티젠 600mg + 옥수수수염 + 호박 추출물의 조합에<br>
+      잔티젠 600mg + 글루코만난 + 차전자피의 조합에<br>
       코르티솔·인슐린 밸런스까지 더해<br>
-      <strong>잠드는 동안 체지방과 붓기를 동시에 관리</strong>하도록 설계했습니다.
+      <strong>잠드는 동안 체지방과 포만감을 동시에 관리</strong>하도록 설계했습니다.
     </p>
   </div>
 
@@ -663,7 +638,6 @@
     초미립 분말 제형
   </h2>
 
-  <!-- 1:1 비율 크게 -->
   <div class="point-img r d2">
     <img src="images/Gemini_Generated_Image_26xegu26xegu26xe 1.png"
       alt="멜라 컷 리추얼 — 잔에 담긴 초미립 분말 스틱" loading="lazy" />
@@ -684,7 +658,7 @@
     <div class="callout-label">ONE STICK ROUTINE</div>
     <p>
       하루 한 포로<br>
-      <strong>수면 · 체지방 · 붓기 케어</strong>를 위한 성분을 한 번에.<br>
+      <strong>수면 · 체지방 · 포만감 케어</strong>를 위한 성분을 한 번에.<br>
       침대 옆에 두고, 매일 밤 자연스럽게 손이 가는 루틴을 만드세요.
     </p>
   </div>
@@ -829,7 +803,7 @@
     <div class="pm-sec"><div class="pm-st">1. 수집 목적</div><p>사전 체험단 신청 접수, 무료 샘플 발송 안내, 정식 출시 알림 및 첫 구매 혜택(쿠폰 등) 제공</p></div>
     <div class="pm-sec"><div class="pm-st">2. 수집 항목</div><p>필수: 휴대폰 번호(연락처)</p></div>
     <div class="pm-sec"><div class="pm-st">3. 보유 및 이용 기간</div><p>정식 출시일로부터 1년, 이후 지체 없이 파기합니다.</p></div>
-    <div class="pm-sec"><div class="pm-st">4. 제3자 제공</div><p>원칙적으로 제공하지 않으며, 샘플 발송을 위한 배송 업체에 최소한의 정보만 제공합니다. 발송 완료 후 즉시 파기를 요청합니다.</p></div>
+    <div class="pm-sec"><div class="pm-st">4. 제3자 제공</div><p>원칙적으로 제공하지 않으며, 샘플 발송을 위한 배송 업체에 최소한의 정보만 제공합니다. 발송 완료 후 즉시 파기를 요청합니다.</div></div>
     <div class="pm-sec"><div class="pm-st">5. 처리 위탁</div><p>서비스 운영을 위해 일부 업무를 외부 업체에 위탁할 수 있으며, 관련 법령에 따라 안전하게 관리합니다.</p></div>
     <div class="pm-sec"><div class="pm-st">6. 동의 거부 권리</div><p>개인정보 수집·이용에 동의하지 않을 권리가 있습니다. 거부 시 사전 체험단 혜택 제공이 제한됩니다.</p></div>
     <div class="pm-sec"><div class="pm-st">7. 정보 주체의 권리</div><p>열람, 정정, 삭제, 처리 정지를 요청할 수 있습니다.</p></div>
